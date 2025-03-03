@@ -5,7 +5,7 @@ import fb from "../assets/icons8-facebook.svg";
 
 const Banner = () => {
   return (
-    <section className="relative max-w-5xl mx-auto px-6 py-20 md:py-40  md:px-16 text-white preahvihear-regular">
+    <section className="relative max-w-5xl mx-auto py-20 md:py-40 text-white preahvihear-regular">
       <div className="absolute top-5 left-28 md:top-24 md:left-40 flex ">
         <img src={vector} alt="Arrow" className="w-16 mt-2" />
         <p>

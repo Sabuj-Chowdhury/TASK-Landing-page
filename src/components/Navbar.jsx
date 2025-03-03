@@ -2,7 +2,7 @@ import logo from "../assets/icons8-home.svg";
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 z-[100] bg-gradient-to-r from-[#1a0b2e] to-[#2e1a4b] px-[5%] py-6 shadow-md">
+    <nav className="sticky top-0 z-[100] bg-[#1a0b2e] px-[5%] py-6 shadow-md">
       <div className="max-w-5xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="text-white text-2xl font-bold">
