@@ -79,7 +79,7 @@ This project is deployed on **Vercel**. If you want to deploy your own version:
 
 ### 🏠 Home Page
 
-![Home Section](/home.png)
+![Home Section](./home.png)
 
 ### 💡 Features Section
 
