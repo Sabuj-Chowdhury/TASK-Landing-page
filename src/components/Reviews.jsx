@@ -3,7 +3,10 @@ import pic2 from "../assets/frame2.svg";
 
 const Reviews = () => {
   return (
-    <section className="relative max-w-5xl mx-auto mt-24 py-20 md:py-40 text-white poppins-semibold">
+    <section
+      id="about"
+      className="relative max-w-5xl mx-auto mt-24 py-20 md:py-40 text-white poppins-semibold"
+    >
       {/* Project Container */}
       <div className="flex flex-col gap-20 items-center justify-center relative">
         {/* First Project Card */}

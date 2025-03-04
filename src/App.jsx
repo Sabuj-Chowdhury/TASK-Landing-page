@@ -1,3 +1,4 @@
+import { BrowserRouter } from "react-router-dom";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -7,19 +8,21 @@ import Services from "./components/Services";
 
 function App() {
   return (
-    <body className="bg-[#0d021f] text-white ">
-      {/* Navbar */}
+    <BrowserRouter>
+      <body className="bg-[#0d021f] text-white ">
+        {/* Navbar */}
 
-      <Navbar />
+        <Navbar />
 
-      <main>
-        <Banner />
-        <Services />
-        <Products />
-        <Reviews />
-        <Footer />
-      </main>
-    </body>
+        <main>
+          <Banner />
+          <Services />
+          <Products />
+          <Reviews />
+          <Footer />
+        </main>
+      </body>
+    </BrowserRouter>
   );
 }
 

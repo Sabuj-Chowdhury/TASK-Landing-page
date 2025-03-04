@@ -1,6 +1,9 @@
 const Footer = () => {
   return (
-    <footer className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start px-6 md:px-0 max-w-5xl mx-auto text-white preahvihear-regular text-center md:text-left">
+    <footer
+      id="footer"
+      className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start px-6 md:px-0 max-w-5xl mx-auto text-white preahvihear-regular text-center md:text-left"
+    >
       <div className="w-full md:max-w-lg">
         <h2 className="text-3xl font-bold leading-tight">
           <span>Cont</span>

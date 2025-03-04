@@ -18,7 +18,10 @@ import circle3 from "../assets/Ellipse 23.svg";
 
 const Products = () => {
   return (
-    <section className="relative max-w-5xl mx-auto py-20 md:py-40 text-white preahvihear-regular">
+    <section
+      id="support"
+      className="relative max-w-5xl mx-auto py-20 md:py-40 text-white preahvihear-regular"
+    >
       {/* Text */}
       <div className=" flex flex-col items-center justify-center  text-center  py-5">
         <p className="text-2xl md:text-3xl font-semibold">

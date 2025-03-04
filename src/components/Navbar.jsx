@@ -1,3 +1,4 @@
+import { HashLink as Link } from "react-router-hash-link";
 import logo from "../assets/icons8-home.svg";
 
 const Navbar = () => {
@@ -11,11 +12,21 @@ const Navbar = () => {
 
         {/* Nav Items */}
         <ul className="flex space-x-6 text-white">
-          <li className="hover:text-gray-300 cursor-pointer">Home</li>
-          <li className="hover:text-gray-300 cursor-pointer">Products</li>
-          <li className="hover:text-gray-300 cursor-pointer">Support</li>
-          <li className="hover:text-gray-300 cursor-pointer">About</li>
-          <li className="hover:text-gray-300 cursor-pointer">Contact</li>
+          <li className="hover:text-gray-300 cursor-pointer">
+            <Link to="#home">Home</Link>
+          </li>
+          <li className="hover:text-gray-300 cursor-pointer">
+            <Link to="#services"> Products</Link>
+          </li>
+          <li className="hover:text-gray-300 cursor-pointer">
+            <Link to="#support">Support</Link>
+          </li>
+          <li className="hover:text-gray-300 cursor-pointer">
+            <Link to="#about">About</Link>
+          </li>
+          <li className="hover:text-gray-300 cursor-pointer">
+            <Link to="#footer">Contact</Link>
+          </li>
         </ul>
       </div>
     </nav>

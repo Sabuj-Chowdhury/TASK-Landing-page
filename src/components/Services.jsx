@@ -36,7 +36,7 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <section className="max-w-5xl mx-auto px-6 py-16 text-white">
+    <section id="services" className="max-w-5xl mx-auto px-6 py-16 text-white">
       <h2 className="text-4xl text-center md:text-left mb-12 preahvihear-regular ">
         Work Experience
       </h2>
