@@ -1,12 +1,100 @@
-# React + Vite
+# TASK Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🏆 Frontend Developer Internship Task
 
-Currently, two official plugins are available:
+This project is a **job task** for a **Frontend Developer Internship**. It is a modern and responsive **Landing Page** built using **React, TailwindCSS, and React Router**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📌 **GitHub Repository**: [TASK Landing Page](https://github.com/Sabuj-Chowdhury/TASK-Landing-page)
 
-## Expanding the ESLint configuration
+🌍 **Live Demo**: [View Project](https://task-landing-page-pied.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Installation & Setup
+
+### 🔹 Prerequisites
+
+Make sure you have **Node.js (v18 or later)** and **npm/yarn** installed on your system.
+
+### 🔹 Clone the Repository
+
+```sh
+ git clone https://github.com/Sabuj-Chowdhury/TASK-Landing-page.git
+ cd TASK-Landing-page
+```
+
+### 🔹 Install Dependencies
+
+```sh
+ npm install  # or yarn install
+```
+
+### 🔹 Start Development Server
+
+```sh
+ npm run dev  # or yarn dev
+```
+
+After running the above command, the project should be available at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🔧 Technologies Used
+
+- **React 19** - For building UI components.
+- **React Router 7** - For navigation.
+- **TailwindCSS 4** - For styling.
+- **Vite** - For fast development.
+
+### 📌 Dependencies
+
+```json
+"dependencies": {
+  "@tailwindcss/vite": "^4.0.9",
+  "react": "^19.0.0",
+  "react-dom": "^19.0.0",
+  "react-router-dom": "^7.2.0",
+  "react-router-hash-link": "^2.4.3",
+  "tailwindcss": "^4.0.9"
+}
+```
+
+---
+
+## 🚀 Deployment
+
+This project is deployed on **Vercel**. If you want to deploy your own version:
+
+1. Push your code to GitHub.
+2. Create an account on [Vercel](https://vercel.com/).
+3. Import your repository and deploy.
+
+---
+
+## 📸 Project Screenshots
+
+### 🏠 Home Page
+
+![Home Section](/home.png)
+
+### 💡 Features Section
+
+![Features Section](./screenshots/features.png)
+
+### 📊 Testimonials Section
+
+![Testimonials Section](./screenshots/testimonials.png)
+
+### 📩 Contact Section
+
+![Contact Section](./screenshots/contact.png)
+
+> **Note**: Make sure to add the **images** inside a `screenshots` folder in the root directory.
+
+---
+
+### 🔥 Thanks for checking out the project! Happy coding! 🚀
