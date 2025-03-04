@@ -7,7 +7,7 @@ import Services from "./components/Services";
 
 function App() {
   return (
-    <body className="bg-[#11071f] text-white ">
+    <body className="bg-[#0d021f] text-white ">
       {/* Navbar */}
 
       <Navbar />

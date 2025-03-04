@@ -36,41 +36,43 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <section className="max-w-6xl mx-auto px-6 py-16 text-white">
-      <h2 className="text-3xl md:text-4xl font-bold text-center md:text-left mb-12">
+    <section className="max-w-5xl mx-auto px-6 py-16 text-white">
+      <h2 className="text-4xl text-center md:text-left mb-12 preahvihear-regular ">
         Work Experience
       </h2>
 
-      {/* Grid Layout */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {servicesData.map((service) => (
-          <div
-            key={service.id}
-            className="relative bg-gradient-to-b from-[#2c024b] to-[#1a012f] rounded-2xl p-6 md:p-10 shadow-lg flex items-center space-x-6 transition-transform transform hover:scale-105"
-          >
-            {/* Icon/Image */}
-            <img
-              src={service.image}
-              alt={service.title}
-              className="w-20 h-20 md:w-24 md:h-24"
-            />
+      <div className="relative ">
+        <div className="absolute top-20 left-32 md:top-32 md:left-80 w-60 h-72 md:w-48 md:h-48 bg-purple-500 rounded-full blur-3xl opacity-50"></div>
 
-            {/* Content */}
-            <div>
-              <h3 className="text-xl md:text-2xl font-semibold">
-                {service.title}
-              </h3>
-              <p className="text-gray-300 text-sm md:text-base mt-2">
-                {service.description}
-              </p>
+        {/* Grid Layout */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {servicesData.map((service) => (
+            <div
+              key={service.id}
+              className="relative bg-gradient-to-b from-[#2c024b] to-[#1a012f] rounded-2xl p-6 md:p-10 shadow-lg flex items-center space-x-6 transition-transform transform hover:scale-105"
+            >
+              {/* Icon/Image */}
+              <img
+                src={service.image}
+                alt={service.title}
+                className="w-20 h-20 md:w-24 md:h-24"
+              />
 
-              {/* Updated Button */}
-              <button className="mt-4 px-6 py-2 border border-purple-400 text-white rounded-full text-sm font-medium transition duration-300 hover:bg-purple-400 hover:text-black">
-                Learn More
-              </button>
+              {/* Content */}
+              <div>
+                <h3 className="text-xl poppins-semibold">{service.title}</h3>
+                <p className="text-gray-300 poppins-medium text-sm mt-2">
+                  {service.description}
+                </p>
+
+                {/* Updated Button */}
+                <button className="mt-4 px-6 py-2 border border-purple-400 text-white rounded-full text-sm poppins-medium transition duration-300 hover:bg-purple-400 hover:text-black">
+                  Learn More
+                </button>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );

@@ -16,7 +16,8 @@ const Banner = () => {
 
       <div className="relative flex  items-center ">
         {/* Gradient Behind Avatar */}
-        <div className="absolute top-10 w-48 h-48 bg-gradient-radial from-[#5d1a7c] to-transparent rounded-full blur-3xl"></div>
+
+        <div className="absolute bottom-10 w-32 h-32 bg-purple-500 rounded-full blur-3xl opacity-50"></div>
 
         {/* Avatar */}
         <img
