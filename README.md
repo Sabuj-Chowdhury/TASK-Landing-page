@@ -79,22 +79,18 @@ This project is deployed on **Vercel**. If you want to deploy your own version:
 
 ### 🏠 Home Page
 
-![Home Section](./home.png)
+![Home Section](public/home.png)
 
-### 💡 Features Section
+### 🛒 Product Section
 
-![Features Section](./screenshots/features.png)
+![Product Section](public/Product.png)
 
-### 📊 Testimonials Section
+### 🛠️ Services Section
 
-![Testimonials Section](./screenshots/testimonials.png)
+![Services Section](public/Services.png)
 
-### 📩 Contact Section
+### 🌟 Reviews & Footer
 
-![Contact Section](./screenshots/contact.png)
-
-> **Note**: Make sure to add the **images** inside a `screenshots` folder in the root directory.
+![Reviews & Footer](public/review_and_footer.png)
 
 ---
-
-### 🔥 Thanks for checking out the project! Happy coding! 🚀
